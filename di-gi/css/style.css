@@ -3,31 +3,32 @@ body {
     margin: auto;
 }
 
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 main {
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #2B4074;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 .logo {
     width: 100px;
     height: 66px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    margin-left: 153px;
 }
 
 .menu {
     width: 40px;
     height: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-right: 135px;
-
 }
 .intro {
     position: relative;
@@ -39,6 +40,7 @@ header {
     background-size: cover;
     background-position: center;
     margin: auto;
+    padding-bottom: 213px;
 }
 
 h1 {
@@ -46,6 +48,7 @@ h1 {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 96px;
+    font-weight: 400;
     text-transform: uppercase;
     margin: 0;
     padding-top: 107px;
@@ -55,7 +58,11 @@ h3 {
     color: #FFF;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
+}
+
+.intro-text {
     text-align: center;
+    font-weight: 400;
 }
 
 button {
@@ -66,9 +73,9 @@ button {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
+    font-weight: 500;
     text-transform: uppercase;
     border-radius: 5px;
-    margin-bottom: 213px;
 }
 .arrows {
     display: flex;
@@ -86,12 +93,32 @@ button {
 }
 
 .promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2B4074;
+    padding-top: 57px;
+    padding-bottom: 57px;
 }
 
 .promo-title {
-    padding-top: 57px;
-    padding-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.promo-text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: auto;
+    margin-top: 16px;
+}
+
+.promo-button {
+    background-color: #F9F6E5;
+    color: #2B4074;
 }
 
 
